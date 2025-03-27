@@ -1,6 +1,33 @@
 {
-    "users": [
-      { "id": 1, "name": "Emmanuel Ngetich" },
-      { "id": 2, "name": "Emmanuel Ngetich" }
-    ]
+"drugs": [
+  {
+    "id": "1",
+    "name": "Paracetamol",
+    "stock": 49
+  },
+  {
+    "id": "2",
+    "name": "Ibuprofen",
+    "stock": 24
+  },
+  {
+    "id": "3",
+    "name": "Amoxicillin",
+    "stock": 20
   }
+],
+"distributions": [
+  {
+    "id": "92cb",
+    "hospital": "kericho hospital",
+    "drug": "Paracetamol",
+    "quantity": 1
+  },
+  {
+    "id": "1793",
+    "hospital": "Meru General Hospital",
+    "drug": "Ibuprofen",
+    "quantity": 6
+  }
+]
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmaceutical Supply & Distribution</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Include your CSS -->
+</head>
+<body>
+
+    <h1>Pharmaceutical Supply & Distribution</h1>
+
+    <section>
+        <h2>Available Drugs</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody id="drugList"></tbody> <!-- Drug list will be populated here -->
+        </table>
+    </section>
+
+    <section>
+        <h2>Distribute Drugs</h2>
+        <label for="hospitalName">Hospital Name:</label>
+        <input type="text" id="hospitalName" placeholder="Enter hospital name">
+
+        <label for="selectDrug">Select Drug:</label>
+        <select id="selectDrug">
+            <option value="">-- Select Drug --</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1">
+
+        <button id="distributeBtn">Distribute</button>
+    </section>
+
+    <section>
+        <h2>Distribution Records</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hospital</th>
+                    <th>Drug</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="distributionRecords"></tbody> <!-- Records will be added here -->
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
